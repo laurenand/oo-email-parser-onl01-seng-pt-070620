@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   def parse
     @email.collect |e|
-    end
-    binding.pry
+    binding.pryend
+    
   end
 end
