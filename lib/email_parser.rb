@@ -10,5 +10,6 @@ class EmailAddressParser
   end
   def parse
     @email.split(", ")
+    binding.pry
   end
 end
